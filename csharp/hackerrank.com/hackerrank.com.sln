@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompareTheTriplets", "Compa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsExploration", "MarsExploration\MarsExploration.csproj", "{C1DD328D-67E3-446C-8319-222A07649ADD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DArrayDS", "2DArrayDS\2DArrayDS.csproj", "{6551DAB5-314E-4407-B0D0-794EA7E973A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C1DD328D-67E3-446C-8319-222A07649ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1DD328D-67E3-446C-8319-222A07649ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1DD328D-67E3-446C-8319-222A07649ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6551DAB5-314E-4407-B0D0-794EA7E973A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6551DAB5-314E-4407-B0D0-794EA7E973A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6551DAB5-314E-4407-B0D0-794EA7E973A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6551DAB5-314E-4407-B0D0-794EA7E973A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
