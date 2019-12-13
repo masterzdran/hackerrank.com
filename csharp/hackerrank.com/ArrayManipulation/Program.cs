@@ -21,7 +21,7 @@ class Solution
             array[a] += k;
             if(b < array.Length - 1)
             { 
-                array[b] -= k;
+                array[b+1] -= k;
             }
         }
         long sum = 0;
@@ -33,7 +33,7 @@ class Solution
                 result = sum;
             }
         }
-        result = array.Max();
+
         return result;
     }
 
