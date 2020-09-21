@@ -38,9 +38,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpingOnTheClouds", "src\J
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpingOnTheCloudsTest", "test\JumpingOnTheCloudsTest\JumpingOnTheCloudsTest.csproj", "{8729E7B6-8F68-4421-8076-420F86E43592}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalDifference", "DiagonalDifference\DiagonalDifference.csproj", "{B317455A-6BD2-4072-A0B9-CD8E0F476901}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalDifference", "src\DiagonalDifference\DiagonalDifference.csproj", "{B317455A-6BD2-4072-A0B9-CD8E0F476901}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusMinus", "PlusMinus\PlusMinus.csproj", "{EA3E424F-3F65-4C2D-8617-1326F173F321}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusMinus", "src\PlusMinus\PlusMinus.csproj", "{EA3E424F-3F65-4C2D-8617-1326F173F321}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
