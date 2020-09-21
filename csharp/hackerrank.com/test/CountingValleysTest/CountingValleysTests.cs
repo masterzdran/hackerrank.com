@@ -5,37 +5,15 @@ namespace CountingValleysTest
 {
     public class CountingValleysTests
     {
-        [Fact]
-        public void CountingValleys_Should_Return_1()
+        [Theory]
+        [InlineData(8, "UDDDUDUU",1)]
+        [InlineData(12, "DDUUDDUDUUUD", 2)]
+        [InlineData(24, "UDDDUDUUUDDDUDUUUDDDUDUU", 3)]
+        public void CountingValleys_Should_Return_Return_True(int n,string s, int expected_result)
         {
-            int n = 8;
-            string s = "UDDDUDUU";
-            int expected_result = 1;
             int result = Solution.countingValleys(n, s);
 
             Assert.Equal(expected_result,result);
-        }
-
-        [Fact]
-        public void CountingValleys_Should_Return_2()
-        {
-            int n = 12;
-            string s = "DDUUDDUDUUUD";
-            int expected_result = 2;
-            int result = Solution.countingValleys(n, s);
-
-            Assert.Equal(expected_result, result);
-        }
-
-        [Fact]
-        public void CountingValleys_Should_Return_3()
-        {
-            int n = 24;
-            string s = "UDDDUDUUUDDDUDUUUDDDUDUU";
-            int expected_result = 3;
-            int result = Solution.countingValleys(n, s);
-
-            Assert.Equal(expected_result, result);
         }
     }
 }

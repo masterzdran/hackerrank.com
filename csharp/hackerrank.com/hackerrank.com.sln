@@ -25,18 +25,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BB955CE1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B044E150-FE57-472B-A5C4-3B1C2CA34729}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SockMerchantTest", "test\SockMerchantTest\SockMerchantTest.csproj", "{43D79713-322C-4C76-B77F-D4EE6099C6D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SockMerchantTest", "test\SockMerchantTest\SockMerchantTest.csproj", "{43D79713-322C-4C76-B77F-D4EE6099C6D1}"
 	ProjectSection(ProjectDependencies) = postProject
 		{A5A8B6FC-B3EF-4336-9F5B-169B19A09FDB} = {A5A8B6FC-B3EF-4336-9F5B-169B19A09FDB}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingValleys", "src\Countingalleys\CountingValleys.csproj", "{3195A04C-C59B-410D-97AC-3F00E5CE1479}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountingValleys", "src\Countingalleys\CountingValleys.csproj", "{3195A04C-C59B-410D-97AC-3F00E5CE1479}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingValleysTest", "test\CountingValleysTest\CountingValleysTest.csproj", "{09C514B6-35D8-4F51-8630-9E1F6FE9CB17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountingValleysTest", "test\CountingValleysTest\CountingValleysTest.csproj", "{09C514B6-35D8-4F51-8630-9E1F6FE9CB17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpingOnTheClouds", "src\JumpingOnTheClouds\JumpingOnTheClouds.csproj", "{19BF9279-70E2-404C-BD1F-95BC01760025}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpingOnTheClouds", "src\JumpingOnTheClouds\JumpingOnTheClouds.csproj", "{19BF9279-70E2-404C-BD1F-95BC01760025}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpingOnTheCloudsTest", "test\JumpingOnTheCloudsTest\JumpingOnTheCloudsTest.csproj", "{8729E7B6-8F68-4421-8076-420F86E43592}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpingOnTheCloudsTest", "test\JumpingOnTheCloudsTest\JumpingOnTheCloudsTest.csproj", "{8729E7B6-8F68-4421-8076-420F86E43592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalDifference", "DiagonalDifference\DiagonalDifference.csproj", "{B317455A-6BD2-4072-A0B9-CD8E0F476901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusMinus", "PlusMinus\PlusMinus.csproj", "{EA3E424F-3F65-4C2D-8617-1326F173F321}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -100,6 +104,14 @@ Global
 		{8729E7B6-8F68-4421-8076-420F86E43592}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8729E7B6-8F68-4421-8076-420F86E43592}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8729E7B6-8F68-4421-8076-420F86E43592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B317455A-6BD2-4072-A0B9-CD8E0F476901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B317455A-6BD2-4072-A0B9-CD8E0F476901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B317455A-6BD2-4072-A0B9-CD8E0F476901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B317455A-6BD2-4072-A0B9-CD8E0F476901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA3E424F-3F65-4C2D-8617-1326F173F321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3E424F-3F65-4C2D-8617-1326F173F321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3E424F-3F65-4C2D-8617-1326F173F321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3E424F-3F65-4C2D-8617-1326F173F321}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +131,8 @@ Global
 		{09C514B6-35D8-4F51-8630-9E1F6FE9CB17} = {BB955CE1-36BF-4A60-A185-1BCA8A86449D}
 		{19BF9279-70E2-404C-BD1F-95BC01760025} = {B044E150-FE57-472B-A5C4-3B1C2CA34729}
 		{8729E7B6-8F68-4421-8076-420F86E43592} = {BB955CE1-36BF-4A60-A185-1BCA8A86449D}
+		{B317455A-6BD2-4072-A0B9-CD8E0F476901} = {B044E150-FE57-472B-A5C4-3B1C2CA34729}
+		{EA3E424F-3F65-4C2D-8617-1326F173F321} = {B044E150-FE57-472B-A5C4-3B1C2CA34729}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5D4B761-7488-4755-8132-4D8F83C993EB}
